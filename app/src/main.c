@@ -208,12 +208,10 @@ typedef struct CommunicationRcAls {
 CommunicationRcAls s1;
 struct CommunicationRcAls s2;
 
-void foo(CommunicationRcAls s){
-
+void foo(CommunicationRcAls s) {
 }
 
-void bar(struct CommunicationRcAls s){
-
+void bar(struct CommunicationRcAls s) {
 }
 
 void vApplicationMallocFailedHook( void )
